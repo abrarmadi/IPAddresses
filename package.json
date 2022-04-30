@@ -1,0 +1,29 @@
+{
+  "name": "ip-addresses",
+  "version": "1.0.0",
+  "description": "This is to search and store ip addresses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrarmadi/IPAddresses.git"
+  },
+  "author": "Abrar Madi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abrarmadi/IPAddresses/issues"
+  },
+  "homepage": "https://github.com/abrarmadi/IPAddresses#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "connect-mongodb-session": "^3.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "http": "0.0.1-security",
+    "mongoose": "^6.3.1"
+  }
+}
